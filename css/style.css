@@ -42,6 +42,26 @@ article, aside {
   padding: 2rem;
 }
 
+@keyframes sizeing {
+    from {
+			left: 500px;
+      top: 0px;
+		}
+    to {
+			left: 0px;
+      top: 100px;
+		}
+}
+
+.animation{
+  position: relative;
+  width:250px;
+  height:250px;
+  background-image: url("../images/plane.png");
+  background-size: contain;
+  animation: sizeing 2s ease infinite;
+}
+
 /* TRANSISTION: The animation code */
 /*
 @keyframes andersAnd {
